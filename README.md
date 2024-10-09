@@ -7,7 +7,7 @@ Este é um projeto fullstack de um **sistema de caixa bancário**, desenvolvido 
 O projeto contém dois diretórios principais:
 
 - **AlvesBank**: Contém a API desenvolvida com Spring Boot.
-- **front-challenge**: Contém a interface web desenvolvida com React.
+- **front-challenge**: Contém a interface web desenvolvida com React [front-end](https://github.com/Gideonalves05/front-desafio).
 
 No diretório raiz, também há um arquivo `docker-compose.yml`, que é utilizado para inicializar o banco de dados e a API dentro de containers Docker.
 
