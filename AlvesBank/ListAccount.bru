@@ -1,0 +1,15 @@
+meta {
+  name: ListAccount
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:8080/users/getId?cpfAccount=14032005
+  body: none
+  auth: none
+}
+
+params:query {
+  cpfAccount: 14032005
+}

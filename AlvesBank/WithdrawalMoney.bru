@@ -1,0 +1,19 @@
+meta {
+  name: WithdrawalMoney
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:8080/withdrawal
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "numberAccount": 102,
+    "amount": 10.0
+  }
+  
+}

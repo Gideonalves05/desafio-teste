@@ -1,0 +1,20 @@
+meta {
+  name: TranferMoney
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:8080/transfer
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "senderAccount": 52,
+      "recipientAccount": 102,
+      "amount": 100.0
+  }
+  
+}

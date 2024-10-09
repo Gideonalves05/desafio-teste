@@ -1,0 +1,21 @@
+meta {
+  name: CreateAccount
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/users/createAccount
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "firstName": "Gideon",
+    "lastName": "Ipiranga Alves",
+    "password": "sefaz-123",
+    "cpfAccount": 14032005
+  }
+  
+}
