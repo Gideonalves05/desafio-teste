@@ -23,12 +23,6 @@ Além disso, é necessário garantir que o Docker esteja em execução na sua m�
 
 ## Executando o Projeto
 
-### Execução simplificada
-Caso já tenha os requisitos atendidos na sua **máquina** e esteja rodando em um ambiente **Windows** com o **PowerShell**, você pode utilizar os arquivos `.bat` no diretório para executar o projeto:
-1. Execute o arquivo: `preparar_ambiente.bat`
-2. Execute o arquivo: `rodar_aplicacao.bat`
-3. Abra o navegador e acesse o endereço em que a **aplicação** está rodando (será exibido na tela do terminal).
-
 ### Execução Padrão
 Siga os passos abaixo para executar o projeto localmente:
 
@@ -61,11 +55,11 @@ Após a execução desses comandos, será exibido no terminal o endereço (URL) 
 
 ## Banco de Dados
 
-O banco de dados utilizado é o **PostgreSQL**, executado em um container Docker para simplificar o processo de instalação e evitar problemas de compatibilidade. O Flyway é utilizado para gerenciar as migrações do banco de dados.
+O banco de dados utilizado é o **PostgreSQL**, executado em um container Docker para simplificar o processo de instalação e evitar problemas de compatibilidade. 
 
 ## Backend - API
 
-O backend é uma API desenvolvida em **Java** com o framework **Spring Boot**, utilizando **Maven** como gerenciador de dependências e **Flyway** para o controle de versões do banco de dados. A API fornece endpoints para realizar operações em contas bancárias e transações financeiras.
+O backend é uma API desenvolvida em **Java** com o framework **Spring Boot**, utilizando **Maven** como gerenciador de dependências. A API fornece endpoints para realizar operações em contas bancárias e transações financeiras.
 
 ## Frontend - Interface Web
 
