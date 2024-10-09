@@ -17,6 +17,7 @@ Antes de executar o projeto, certifique-se de ter as seguintes ferramentas insta
 
 - [Docker](https://www.docker.com/get-started) (com Docker Compose habilitado)
 - [Node.js](https://nodejs.org/) (com `npm` disponível no PATH)
+- [jdk21] (com as variaveis de ambientes configuradas)
 
 Além disso, é necessário garantir que o Docker esteja em execução na sua máquina.
 
