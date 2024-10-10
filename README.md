@@ -28,7 +28,8 @@ Siga os passos abaixo para executar o projeto localmente:
 
 1. Clone este repositório ou faça o download do diretório principal.
 2. No diretório raiz do projeto, abra o terminal (ou PowerShell no Windows).
-3. Execute o comando abaixo para iniciar o banco de dados e a API dentro de containers Docker:
+3. Execute o comando abaixo para iniciar o banco de dados dentro de containers Docker:
+4. Execute a aplicação Spring 
     ```bash
     docker-compose up -d
     ```
@@ -38,15 +39,15 @@ Siga os passos abaixo para executar o projeto localmente:
 
     Caso necessario, alterar portas do banco postgres no arquivo **Docker-compose**.
     
-4. Navegue até o diretório do frontend:
+5. Navegue até o diretório do frontend:
     ```bash
     cd front-challenge
     ```
-5. Instale as dependências do frontend:
+6. Instale as dependências do frontend:
     ```bash
     npm install
     ```
-6. Inicie o servidor de desenvolvimento do frontend:
+7. Inicie o servidor de desenvolvimento do frontend:
     ```bash
     npm run dev
     ```
